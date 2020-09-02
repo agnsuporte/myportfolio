@@ -1,0 +1,17 @@
+.social {
+   position: absolute;
+   left: 50px;
+   bottom: 50px;
+   display: flex;
+}
+.social a {
+   margin: 6px 12px;
+}
+.social a {
+   color: rgba(18, 17, 17, 0.4);
+   font-size: 14px;
+}
+.social a:hover {
+   color: #17d1ac;
+   transition: all ease 0.5s;
+}
