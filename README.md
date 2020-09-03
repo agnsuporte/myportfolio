@@ -73,7 +73,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "Estrutura Base para Melhorias"
 git branch -M master
 git remote add origin https://github.com/agnsuporte/portfolio-reacjs.git
 git push -u origin master
