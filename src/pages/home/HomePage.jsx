@@ -54,11 +54,11 @@ const HomePage = () => {
             permitir beneficiar plenamente uma produtividade melhorada em sua
             atuação.
           </p>
-          <button>Para mais detalhes...</button>
+          <a href="#contact-form">Para mais detalhes...</a>
         </div>
         <div className="about-model">
           <img
-            src="https://lh3.googleusercontent.com/117NaDJdCzq4mLTcW-Lmpc3YsvUO_ljgIq2ygezTHE7qaZ8We1JFfz4qeAPFcEFptUN8Mn80-e_KKAY0bwNMs1giB3ug_lowQ3jxjCFIQ9mJcq82TXXuTHIGQhxrDeFQdK6RHO1LTaCOwLOtCzFIYcYkIw5NhNh5Ys4HVOIV9u8u-xhA0LtVRljjnWI8V-sFnWzIw0qpO1llGY8tNMYxSSJM3ZZw9dWfG2ggJYoYpn60Cc00jZxgqZnrr6368VAzjA0o9UpwpBWYZs9ntcRvz1Hne7HwNy0zFAGIrJUuZrr6DfaV9lNW0lqWKBt7SCP16TrVQ2oo8453z5uyyWk7I968BOKEHF12v4a68o8GvrIi6CrdBi5K99YAhMT8KPJiczOkXYujq0Y9N6HgAVIvO_annOPpwk12kX7AKvwgx-x80UfGvJFB072sOH9lNn0OKX0hElqMTl4XMYda2WHWU11bohAeiVzzxD3y2-WsU3TzrPwVP6FfsZamv86gsEdtA1z-j98H0_kGK8dxZJQgU0WIr87sNf6TikDk5MlCxvqs4uGNfBWPWB41sNL-rrZMy-GH_af_8rbyXJ1GRWLljgTq1M1DpIoCgy_Esiqo2xSu5aS3eBLgjX5x7ka-XBubYu6M_X_246aAJx_BJxnSEn9rX-rWH8VK_Xx64rWI03FwnylNaxtEukJfQrzxog=w424-h500-no?authuser=1"
+            src="https://showmyfiles.s3.eu-west-2.amazonaws.com/euSobre.png"
             alt="Sobre"
           />
         </div>
@@ -73,17 +73,21 @@ const HomePage = () => {
       </section>
 
       <section id="portfolio">
-        <h1 className="p-headind">Portfolio</h1>
+        <h1 className="p-headind">Estamos em crescimento!</h1>
         <PortfolioContainer portfolios={portfolio} />
       </section>
 
       <section id="contact-btn">
         <h1 className="c-b-heading">Se você tem algum projeto em mente?</h1>
-        <button>Contate-me</button>
+        <a href="#contact-form">Contate-me</a>
       </section>
 
       <section id="contact-form">
         <FormContact />
+      </section>
+
+      <section id="footer">
+        <hr/>
       </section>
     </>
   );

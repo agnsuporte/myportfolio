@@ -28,7 +28,7 @@ const FormContact = () => {
     e.preventDefault();
 
     setLoader(true);
-    
+
     const data = { ...values };
 
     api
@@ -53,15 +53,12 @@ const FormContact = () => {
         }
 
         setLoader(false);
-
       })
       .catch((err) => {
         setMessage(err);
         setErro(true);
         setLoader(false);
       });
-
-    
 
     return;
   };
@@ -71,7 +68,8 @@ const FormContact = () => {
       {loader && <PreLoader />}
       {erro || (message && <p>{message}</p>)}
       <form onSubmit={handleSubmit}>
-        <div className="contact-left">
+        <div className="form-body">
+          <div className="contact-left ">
           <h1 className="c-l-heading">
             Nos{" "}
             <font style={{ borderBottom: "3px solid #1ED98B" }}>escrev</font>a
@@ -99,7 +97,7 @@ const FormContact = () => {
             />
           </div>
         </div>
-        <div className="contact-right">
+        <div className="contact-right ">
           <div className="message">
             <font>Mensagem</font>
             <textarea
@@ -112,8 +110,9 @@ const FormContact = () => {
               placeholder="Escreva aqui sua mensagem..."
             ></textarea>
           </div>
-          <button>enviar</button>
         </div>
+        </div>
+        <button disabled={loader}>enviar</button>
       </form>
     </div>
   );

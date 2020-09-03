@@ -11,6 +11,7 @@
 
 # production
 /build
+/NaoUsar
 
 # misc
 .DS_Store

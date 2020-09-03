@@ -7,7 +7,7 @@
 	background-size: 1330px;
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	background-image: url("https://lh3.googleusercontent.com/LxFqAjHebZAx8rpn5yYiD_TqseTNjYbCt5bFHkcvLfy7tmiVEPQgkL8KlcnhRG0zA_HXpjH-BUPjCOaZHAHn2fzwkbv5AMwcF7VLabXCcOTyG1EFPDABkobk51MP9hY8dEN6bo0xUcJ2aZTOwxvYH-t7eWHJrFZH8TbNsX5IdIUSV6y1y6AFOAme-malvDJORvviYfsIwwFkUxAY9rIUVr2EBJfcgTLKhJTlqpnJAsNTgB-L9QJ3uI2CGW_kIfKGbFs2DwjWSLs7Zh3ixqMRl-NiFlr69RNZJu5aVQinp9j7szsISTsF2MfuN9O0JkjW3KDyNPliD3RAZlF9IYmW4_0vrU-PbHiWUV5M4M-b_ZSqTjB4qFd75MolpGvQI0docJ6iHt27bgPs4r8NNbB4BhXjpYYL-AsZdMsFXuWLtKXO7C1wFWvWjNH1CDn2kY-1yY6L6DLoX3150o9i2nTtnJ7qDfUj6SO41gUkv1ULAwztquYDiFH2fIRJ9Kgewsc4MML4FMg_wms6V_b_XvLWvH_YQvss67BYrhiWYMOKPp5gINSlDsn-IzmzrX7Cfegu6XUbsKGv8T88DScTpNcjAxe1lLG4brGN-5b_vH8IBL7MFUiJE1m6cLVobZ8a_JJhuxD7aQdAsy0lzwp-iIsv8CPkGQddMiVbuhcvNYVyaQNa-eTT1wo8qqt_GvRc1A=w909-h512-no?authuser=1");
+	background-image: url("https://showmyfiles.s3.eu-west-2.amazonaws.com/euBG.png");
 	background-color: #edf1fd;
 }
 
@@ -101,7 +101,9 @@ h2 {
 	font-size: 1.2rem;
 	color: rgba(255, 255, 255, 0.9);
 }
-.about-text button {
+.about-text a {
+	padding: 10px 30px;
+	font-size: 0.8rem;
 	width: 180px;
 	height: 40px;
 	border-radius: 20px;
@@ -109,7 +111,7 @@ h2 {
 	outline: none;
 	background-color: var(--cor-secondary);
 }
-.about-text button:hover {
+.about-text a:hover {
 	background-color: #ffffff;
 	transition: all ease 0.3s;
 }
@@ -173,7 +175,9 @@ h2 {
 	border-bottom: 2px solid #1e1e1e;
 }
 
-#contact-btn button {
+#contact-btn a {
+	text-align: center;
+	padding: 10px;
 	color: #ffffff;
 	font-size: 1rem;
 	/* font-family: calibri; */
@@ -186,7 +190,7 @@ h2 {
 	box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
 }
 
-#contact-btn button:hover {
+#contact-btn a:hover {
 	background-color: #17d1ac;
 	color: #000000;
 	transition: all ease 0.5s;
@@ -200,13 +204,14 @@ h2 {
 	justify-content: center;
 	align-items: center;
 }
-#contact-form form {
-	display: flex;
-	width: 70%;
+
+#footer {
+	width: 100%;
 	height: 60vh;
-	background-color: #1a1a1a;
-	box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(255, 255, 255, 0.01);
+	padding: 2rem;
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
 }
 
 @media (max-width: 1190px) {

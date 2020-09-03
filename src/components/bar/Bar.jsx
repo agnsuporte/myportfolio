@@ -24,7 +24,7 @@ const Bar = (props) => {
         {listMenu.map((item) => {
           return (
             <li className="" key={item._id}>
-              <a href={item.link} activeClassName="active"> {item.description} </a>
+              <a href={item.link} > {item.description} </a>
             </li>
           );
         })}
